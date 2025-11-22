@@ -1,0 +1,1 @@
+window.alert('This is JS from your About page.')
