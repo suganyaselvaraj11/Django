@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    {{ cookie.title }}
+{% endblock %}
+
+{% block content %}
+    <section>
+          
+        <h1>{{  cookie.title }}</h1>
+        <p>{{  cookie.date }}</p>
+        <img 
+            class="banner" 
+            src="{{  cookie.banner.url }}" 
+            alt="{{  cookie.title }}"
+        />
+        <p>{{  cookie.body }}</p>
+    </section>
+{% endblock %}
